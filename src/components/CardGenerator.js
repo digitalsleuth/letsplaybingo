@@ -112,7 +112,8 @@ class CardGenerator extends React.Component {
       {value: "pink", label: "pink"},
       {value: "aqua", label: "aqua"},
       {value: "gray", label: "gray"},
-      {value: "brown", label: "brown"}
+      {value: "brown", label: "brown"},
+      {value: "black", label: "black"}
     ]
   }
 

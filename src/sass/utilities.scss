@@ -360,6 +360,9 @@ div[class$="-indicatorContainer"] svg {
   background-color: pink;
   .card-letter { color: black !important; }
 }
+[data-color="black"] {
+  background-color: black;
+}
 [data-color="dk-gray"] {
   background-color: rgb(53, 53, 53);
 }
