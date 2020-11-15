@@ -37,9 +37,6 @@ const routing = (
             <li><Link to="/generator">Card Generator</Link></li>
           </ul>
         </div>
-        <div className="col shrink text-right margin-left-lg">
-          <div id="google_translate_element"></div>
-        </div>
       </div>
     </header>
     <div>
