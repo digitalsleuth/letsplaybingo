@@ -129,29 +129,3 @@ button {
     }
   }
 }
-
-/* Google Translate */
-.goog-te-gadget-simple {
-  border: 0 !important;
-  font-family: 'Roboto', sans-serif;
-  .goog-te-menu-value {
-    span {
-      &:first-child {
-        font-family: 'Roboto', sans-serif;
-        font-size: .85rem;
-        line-height: 2.5;
-      }
-      &:last-child {
-        font-size: 0;
-        color: #3c3c3c !important;
-        &:before {
-          display: inline-block;
-          content: '\2329';
-          font-size: 1.5rem;
-          transform: rotate(-90deg);
-          padding-right: 1rem;
-        }
-      }
-    }
-  }
-}
