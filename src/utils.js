@@ -242,7 +242,7 @@ export const getPresetPatterns = () => {
         N: [true, true, true, false, true],
         G: [false, true, false, false, true],
         O: [false, false, false, false, false]
-      },
+      }
     },
     { value: "Blackout",
       label: "Blackout",
@@ -287,7 +287,7 @@ export const getPresetPatterns = () => {
         N: [true, false, false, false, true],
         G: [false, false, false, false, false],
         O: [true, false, true, false, true]
-      },
+      }
     },
     {
       value: "Cent Sign",
@@ -299,7 +299,7 @@ export const getPresetPatterns = () => {
         N: [true, true, false, true, true],
         G: [false, true, false, true, false],
         O: [false, false, false, false, false]
-      },
+      }
     },
     { value: "Clover",
       label: "Clover",
@@ -322,7 +322,7 @@ export const getPresetPatterns = () => {
         N: [false, false, false, false, false],
         G: [true, true, false, true, true],
         O: [true, true, false, true, true]
-      },
+      }
     },
     { value: "Crazy Arrow",
       label: "Crazy Arrow",
@@ -345,7 +345,7 @@ export const getPresetPatterns = () => {
         N: [true, false, false, false, false],
         G: [true, true, false, false, false],
         O: [true, true, true, false, false]
-      },
+      }
     },
     { value: "Crazy Kite",
       label: "Crazy Kite",
@@ -412,7 +412,7 @@ export const getPresetPatterns = () => {
         N: [true, false, true, false, false],
         G: [false, true, false, true, false],
         O: [false, false, true, false, true]
-      },
+      }
     },
     { value: "Filled in Diamond",
       label: "Filled in Diamond",
@@ -425,6 +425,17 @@ export const getPresetPatterns = () => {
         O: [false, false, true, false, false]
       }
     },
+    { value: "Four Corners",
+      label: "Four Corners",
+      unusedLetters: ["I", "N", "G"],
+      pattern: {
+        B: [true, false, false, false, true],
+        I: [false, false, false, false, false],
+        N: [false, false, false, false, false],
+        G: [false, false, false, false, false],
+        O: [true, false, false, false, true]
+      }
+    },
     {
       value: "Hardway",
       label: "Hardway",
@@ -435,7 +446,7 @@ export const getPresetPatterns = () => {
         N: [false, true, false, false, false],
         G: [false, true, false, false, false],
         O: [false, true, false, false, false]
-      },
+      }
     },
     {
       value: "Heart",
@@ -492,7 +503,7 @@ export const getPresetPatterns = () => {
         N: [true, false, true, false, false],
         G: [true, true, false, true, false],
         O: [true, false, false, false, true]
-      },
+      }
     },
     { value: "Postage Stamps",
       label: "Postage Stamps",
@@ -548,7 +559,7 @@ export const getPresetPatterns = () => {
         N: [true, true, true, true, true],
         G: [false, true, true, true, false],
         O: [true, false, true, false, true]
-      },
+      }
     },
     {
       value: "Triangle Game",
@@ -560,7 +571,7 @@ export const getPresetPatterns = () => {
         N: [true, true, true, false, false],
         G: [true, true, false, false, false],
         O: [true, false, false, false, false]
-      },
+      }
     },
     {
       value: "Two Brackets",
@@ -572,7 +583,7 @@ export const getPresetPatterns = () => {
         N: [false, false, false, false, false],
         G: [false, false, false, false, true],
         O: [false, false, false, true, true]
-      },
+      }
     },
     // {
     //   value: "",
